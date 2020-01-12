@@ -25,6 +25,8 @@ A user login, three spellings games, and three math games.
 Create an account and choose what game you would like to play.
 
 ## Credits / Contact information
-@MattRoger- Project Idea, created Spelling Games and helped with styling.
+@MattRoger - Project Idea, created Spelling Games and helped with styling.
+
+@KailerS - Created Login and user page
 
 ## License
