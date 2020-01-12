@@ -17,9 +17,9 @@ React.js, Reactstrap, Styled-Components
 A user login, three spellings games, and three math games.
 
 ## Installation
-:fork: Fork it
-:sheep: Clone it
-Install React.js, reactstrap, styled-components, react-browser-router
+* Fork it
+* :sheep: Clone it
+* Install React.js, reactstrap, styled-components, react-browser-router
 
 ## How to use?
 Create an account and choose what game you would like to play.
