@@ -1,4 +1,4 @@
-# Zombies Need Brains :bust_in_silhouette:
+# Zombies Need Brains :bust_in_silhouette: :video_game:
 A spelling and math game where players have to solve problems to restore zomebies brains.
 
 ## Why Zombies Need Brains?
@@ -17,7 +17,7 @@ React.js, Reactstrap, Styled-Components
 A user login, three spellings games, and three math games.
 
 ## Installation
-* Fork it
+* :trident: Fork it
 * :sheep: Clone it
 * Install React.js, reactstrap, styled-components, react-browser-router
 
@@ -25,8 +25,12 @@ A user login, three spellings games, and three math games.
 Create an account and choose what game you would like to play.
 
 ## Credits / Contact information
-@MattRoger - Project Idea, created Spelling Games and helped with styling.
-@barrett4467 - Created math games. Helped with styling
-@KailerS - Created Login and user page
+* @MattRoger - Project Idea, created Spelling Games and helped with styling.
+   https://mattroger.github.io/
+  :e-mail: mattroger.webdev@gmail.com
+  www.linkedin.com/in/matt-roger/
+  
+* @barrett4467 - Created math games. Helped with styling
+* @KailerS - Created Login and user page
 
 ## License
