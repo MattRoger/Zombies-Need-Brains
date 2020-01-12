@@ -26,9 +26,10 @@ Create an account and choose what game you would like to play.
 
 ## Credits / Contact information
 * @MattRoger - Project Idea, created Spelling Games and helped with styling.
-  * https://mattroger.github.io/
+  * :man_office_worker: https://mattroger.github.io/
   * :e-mail: mattroger.webdev@gmail.com
-  * www.linkedin.com/in/matt-roger/
+  * :man_office_worker: www.linkedin.com/in/matt-roger/
+  
   
 * @barrett4467 - Created math games. Helped with styling
 * @KailerS - Created Login and user page
