@@ -18,7 +18,7 @@ A user login, three spellings games, and three math games.
 
 ## Installation
 :fork: Fork it
-:Sheep: Clone it
+:sheep: Clone it
 Install React.js, reactstrap, styled-components, react-browser-router
 
 ## How to use?
