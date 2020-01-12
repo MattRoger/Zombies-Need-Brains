@@ -1,4 +1,4 @@
-# Zombies Need Brains
+# Zombies Need Brains :bust_in_silhouette:
 A spelling and math game where players have to solve problems to restore zomebies brains.
 
 ## Why Zombies Need Brains?
