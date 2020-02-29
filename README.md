@@ -52,55 +52,7 @@ const QAData = [{
     }
 },
 ```
-### GameWrapper Component
-```javascript
- const [data, setData] = useState({
-        qA: QAData[0],
-        score: 0,
-        lives: 3,
-        round: 1,
-        guess: "",
-        x: 0,
-        question: QAData[0].game1.q1,
-        answer: QAData[0].game1.a1,
-        image: QAData[0].game1.img1,
-        passed: false,
 
-    })
-    const { guess, qA, score, answer, question, lives, round, x, passed,image } = data;    
-```
-#### endGame and playAgain functions
-```javascript
-const EndGame = () => {
-        if (passed) {
-            return <WinnerWindow
-                score={score} />
-        } else {
-            return <LoserWindow
-                playAgain={playAgain}
-            />
-        }
-    }
-    const playAgain = event => {
-        event.preventDefault()
-        visible = true
-        let currentRound = round
-        currentRound = 1
-        let currentLives = lives
-        currentLives = 3
-        let currentX = x
-        currentX = 0
-        let currentScore = score
-        currentScore = 0
-        setData({
-            ...data,
-            lives: currentLives,
-            round: currentRound,
-            x: currentX,
-            score: currentScore,
-        })
-    }
-```
 #### handleInputChange and handleFormSubmit functions
 Used for when a player inputs a guess
 
@@ -156,6 +108,7 @@ const handleInputChange = event => {
     }
 ```
 #### gameWrapper framework
+This is the frame work for the game
 ```javascript
   return (
         <div>
@@ -182,6 +135,7 @@ const handleInputChange = event => {
     )
 ```
 ### AnswerBar component
+This component renders the players possible choices.
 ```javascript
     return (
         <AnswerBox>
@@ -203,28 +157,8 @@ const handleInputChange = event => {
 }
 ```
 
-### LoserWindow component
-```javascript
-  return (
-    <div>
-      <JumboWrapper>
-        <Jumbotron className="jumbo">
-          <h1 className="display-3">Out of Brains!</h1>
-          <p className="lead">Try to do better next time</p>
-          <hr className="my-2" />
-          //ZombieDiv is a styled component
-          <ZombieDiv>
-            <img src={`${process.env.PUBLIC_URL}/assets/zombies/paperzombie.png`} alt="zombie"/>             
-          </ZombieDiv>         
-            <Button>Thanks For Playing</Button>
-            <Button onClick={props.playAgain}>Play Again</Button>
-         </Jumbotron>
-      </JumboWrapper>
-    </div>
-  );
-}
-```
 ### QuestionBar component
+This component renders the questions
 ```javascript
  return (
         <div>
@@ -238,6 +172,7 @@ const handleInputChange = event => {
     )
 ```
 ### StatsBar component
+This component is used to track the players lives, score, and what round they are on.
 ```javascript
 return (
         <div>
