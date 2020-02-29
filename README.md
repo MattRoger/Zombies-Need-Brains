@@ -6,12 +6,33 @@ A spelling and math game where players have to solve problems to restore zomebie
 ## Why Zombies Need Brains?
 This project was designed to showcase our knowledge of react.js and its related technologies.
 
+## How to use?
+Create an account and choose what game you would like to play.
+
+Use the Guest LogIn
+
+Username:Guest
+
+Password: login!
+
+## Tech/framework used
+* React with Hooks
+* Reactstrap 
+* Styled-Components
+
+## Features
+* A user login
+* Three spellings games
+* Three math games.
+
 ## Build Status
 MVP. Project still needs work before final release.
 
 ## Code style
 ### How The Spelling Games Work
+[demo](https://github.com/MattRoger/screenshots/blob/master/znb/spellTheWord.gif?raw=true)
 #### Question and answers array from questions.js
+A sample of what the question and answer object looks like.
 ```javascript
 const QAData = [{
     game1: {
@@ -82,6 +103,7 @@ const EndGame = () => {
 ```
 #### handleInputChange and handleFormSubmit functions
 Used for when a player inputs a guess
+
 ```javascript
 const handleInputChange = event => {
         setData({
@@ -231,19 +253,12 @@ return (
     )
 ```
 
-## Tech/framework used
-React with Hooks, Reactstrap, Styled-Components
-
-## Features
-A user login, three spellings games, and three math games.
-
 ## Installation
 * :trident: Fork it
 * :sheep: Clone it
 * Install React.js, reactstrap, styled-components, react-browser-router
 
-## How to use?
-Create an account and choose what game you would like to play.
+
 
 ## Credits / Contact information
 * @MattRoger - Project Idea, created Spelling Games and helped with styling.
@@ -255,4 +270,3 @@ Create an account and choose what game you would like to play.
 * @barrett4467 - Created math games. Helped with styling
 * @KailerS - Created Login and user page
 
-## License
